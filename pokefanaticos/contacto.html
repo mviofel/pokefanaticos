@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Pok%C3%A9_Ball_icon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pokefanaticos</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./Pok%C3%A9_Ball_icon.svg" alt="logo_pokeball" class="logo" />
+        <div class="menu">
+          <ul>
+            <li><a class="active" href="./contacto.html">Contacto</a></li>
+            <li><a href="./listado.html">Pokemones</a></li>
+            <li><a href="./recursos.html">Recursos</a></li>
+            <li><a href="./index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="center">
+        <h1>Formulario de Contacto</h1>
+        <h3>
+          Si tiene consultas o sugerencias, complete el siguiente formulario
+        </h3>
+        <form action="javascript:;">
+          <div id="result"></div>
+          <input
+            type="text"
+            name="name"
+            placeholder="Ingrese su nombre"
+            class="inp"
+            id="name"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Ingrese su email"
+            class="inp"
+            id="email"
+          />
+          <textarea
+            class="tex"
+            name="subject"
+            placeholder="Ingrese su consulta"
+            id="subject"
+          ></textarea>
+          <button class="btn" type="submit" id="send">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p class="center mini">
+        <img
+          src="./Pok%C3%A9_Ball_icon.svg"
+          width="15px"
+          height="15px"
+          alt="logo_pokeball"
+          class="logo-mini"
+        />
+        <span class="copy">
+          Creado por alumnos de Codo a Codo 4.0 2do cuatrimestre 2022 - Comisión
+          22507 - Profe Ariel Palazessi
+        </span>
+        <img
+          src="./Pok%C3%A9_Ball_icon.svg"
+          width="15px"
+          height="15px"
+          alt="logo_pokeball"
+          class="logo-mini"
+        />
+      </p>
+    </footer>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
