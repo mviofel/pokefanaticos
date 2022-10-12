@@ -38,30 +38,48 @@
         <h3>
           Si tiene consultas o sugerencias, complete el siguiente formulario
         </h3>
-        <form action="javascript:;">
-          <div id="result"></div>
-          <input
-            type="text"
-            name="name"
-            placeholder="Ingrese su nombre"
-            class="inp"
-            id="name"
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Ingrese su email"
-            class="inp"
-            id="email"
-          />
-          <textarea
-            class="tex"
-            name="subject"
-            placeholder="Ingrese su consulta"
-            id="subject"
-          ></textarea>
-          <button class="btn" type="submit" id="send">Enviar</button>
-        </form>
+        <div class="container">
+          <div class="row">
+            <form action="javascript:;">
+              <div id="result"></div>
+              <div class="form-group">
+                <label for="name" class="form-label">Ingrese su nombre:</label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Ingrese su nombre"
+                  class="inp"
+                  id="name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Ingrese su email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Ingrese su email"
+                  class="inp"
+                  id="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form-label"
+                  >Ingrese su consulta:</label
+                >
+                <textarea
+                  class="tex"
+                  name="subject"
+                  placeholder="Ingrese su consulta"
+                  id="subject"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn" type="submit" id="send">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </main>
     <footer>

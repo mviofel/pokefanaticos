@@ -4,9 +4,12 @@ const email = document.getElementById("email");
 const subject = document.getElementById("subject");
 const send = document.getElementById("send");
 
+result.style.display = "none";
+
 send.addEventListener("click", function (e) {
   e.preventDefault();
   let errors = [];
+  result.style.display = "block";
   result.innerHTML = "";
   if (name.value === "" || name.value.length < 3) {
     errors.push("El nombre debe contener al menos tres caracteres");
